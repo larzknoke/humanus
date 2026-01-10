@@ -1,0 +1,19 @@
+{
+  "name": "humanus-website",
+  "version": "1.0.0",
+  "description": "Humanus – Praxis für Osteopathie und Physiotherapie",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf _site"
+  },
+  "keywords": [
+    "eleventy",
+    "website"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

@@ -1,0 +1,69 @@
+<script
+  type="text/javascript"
+  src="/assets/3rd/jquery/jquery-core.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/jquery/jquery-ui.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/jquery/jquery-tinynav.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/jquery/jquery-isotope.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/jquery/jquery-flexslider.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/jquery/jquery-countdown.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/jquery/jquery-masonry.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/jquery/jquery-leanModal.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/jquery/jquery-validate.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/pretty-photo/pretty-photo.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/layerslider/js/greensock.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/layerslider/js/layerslider.kreaturamedia.jquery.js"
+></script>
+<script
+  type="text/javascript"
+  src="/assets/3rd/layerslider/js/layerslider.transitions.js"
+></script>
+<script type="text/javascript" src="/assets/js/theme.js"></script>
+{% if layerslider %}
+<script type="text/javascript">
+  (function ($) {
+    "use strict";
+
+    $("#layerslider").layerSlider({
+      responsive: false,
+      responsiveUnder: 1100,
+      layersContainer: 1100,
+      skin: "v5",
+      hoverPrevNext: false,
+      skinsPath: "/assets/3rd/layerslider/skins/",
+    });
+  })(jQuery);
+</script>
+{% endif %}

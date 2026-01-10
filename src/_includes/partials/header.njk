@@ -1,0 +1,57 @@
+<header>
+  <div id="tm-header-top">
+    <div class="tm-wrap tm-table"></div>
+    <!--tm-wrap-->
+  </div>
+  <!--tm-header-top-->
+  <div id="tm-header-nav" class="tm-menu-style1 tm-sticky-menu">
+    <div class="tm-wrap tm-table">
+      <nav class="tm-nav">
+        <ul class="tm-menu tm-menu-simple l_tinynav1">
+          <a href="/index.html"
+            ><img
+              style="padding: 10px 210px 10px 10px"
+              alt="Logo"
+              src="/assets/img/logo.jpg"
+          /></a>
+          <li class="{% if page.url == '/index.html' %}current-menu-item {% endif %}parent">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="{% if page.url == '/behandlungen.html' %}current-menu-item {% endif %}parent">
+            <a href="/behandlungen.html">Behandlungen</a>
+          </li>
+          <li class="{% if page.url == '/yoga.html' %}current-menu-item {% endif %}parent">
+            <a href="/yoga.html">Yoga</a>
+          </li>
+          <li class="{% if page.url == '/praxis.html' or page.url == '/kilianbegoin.html' or page.url == '/joachimtoelle.html' or page.url == '/dominiquemakris.html' or page.url == '/georgroeske.html' %}current-menu-item {% endif %}parent">
+            <a href="/praxis.html">Praxisgemeinschaft</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="/praxis.html">Praxis humanus</a>
+              </li>
+              <li>
+                <a href="/kilianbegoin.html">Kilian Begoin</a>
+              </li>
+              <li>
+                <a href="/joachimtoelle.html">Joachim Tölle</a>
+              </li>
+              <li>
+                <a href="/dominiquemakris.html">Dominique Makris-Fleer</a>
+              </li>
+              <li>
+                <a href="/georgroeske.html">Georg Röske</a>
+              </li>
+            </ul>
+          </li>
+          <li class="{% if page.url == '/kontakt.html' %}current-menu-item {% endif %}parent">
+            <a href="/kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <!--tm-nav-->
+    </div>
+  </div>
+  <div style="height: 104px; display: none"></div>
+
+  <!--tm-header-nav-->
+</header>
