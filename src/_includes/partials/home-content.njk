@@ -223,18 +223,20 @@
   </div>
 </div>
 
-<!-- Team section - NOTE: This needs to be completed with all team members from original index.html -->
-<div
-  class="tm-row setanimate visible"
-  style="padding: 40px 0 40px; text-align: center"
->
+<!-- Team section -->
+<div class="tm-row setanimate visible" style="padding: 40px 0 40px; text-align: center">
   <div class="tm-wrap">
-    <div
-      class="header-line-center-bottom"
-      style="margin-bottom: 30px"
-    >
+    <div class="header-line-center-bottom" style="margin-bottom: 30px">
       <h1>Die Praxisgemeinschaft</h1>
     </div>
-    <!-- TODO: Add all team members here from original index.html lines 700-980 -->
+    
+    {% for member in team %}
+      {% if loop.index0 % 3 == 0 %}
+        {% if loop.index0 > 0 %}</div></div><div class="tm-row setanimate visible" style="padding: 40px 0 40px; text-align: center"><div class="tm-wrap">{% endif %}
+      {% endif %}
+      
+      {% set isLast = (loop.index % 3 == 0) or loop.last %}
+      {% include "partials/team-member.njk" %}
+    {% endfor %}
   </div>
 </div>

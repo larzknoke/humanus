@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Kilian Begoin",
+    "position": "Praxisleitung",
+    "image": "assets/img/team_kilian.png",
+    "description": "Osteopath, M.sc., Heilpraktiker, Physiotherapeut, Kinderosteopath, Trauma-Therapeut, SE-Therapie (Somatic Experiencing)"
+  },
+  {
+    "name": "Sarah Rohlfing",
+    "position": "Stellvertretende Leitung",
+    "image": "assets/img/rohlfink.png",
+    "imageWidth": "180px",
+    "description": "Physiotherapeutin, Manuelle Therapie, <br />Bobath (Erwachsene), CMD, <br />Manuelle Lymphdrainage, <br />Heilpraktikerin für Physiotherapie <br />Viszerale Techniken, <br />Cranio-Sacrale-Therapie"
+  },
+  {
+    "name": "Silke Begoin",
+    "image": "assets/img/team_0007_silke_begoin.png",
+    "description": "Physiotherapeutin, Manuelle Therapie, <br />Manuelle Lymphdrainage, Kinesio-Tape, Entspannungstherapeutin, Viszerale Techniken"
+  },
+  {
+    "name": "Sinem Kalies",
+    "image": "assets/img/team_0004_sinem_kalies2.png",
+    "description": "Osteopathin, Physiotherapeutin, Kinderosteopathie, Gynäkologie,Urologie und Geburtshilfe in der Osteopathie"
+  },
+  {
+    "name": "Katharina Wintermeyer",
+    "image": "assets/img/team_0003_katharina_wintermeyer.png",
+    "description": "Rezeption und Termine"
+  },
+  {
+    "name": "Georg Röske",
+    "position": "Praxis Röske",
+    "image": "assets/img/team_0006_georg_roeske.png",
+    "description": "Osteopath, Physiotherapeut, Manuelle Therapie, Heilpraktiker, CMD / Kieferbehandlung, Kinesio-Tape, Osteopathie-WPO"
+  },
+  {
+    "name": "Janina Thamm",
+    "image": "assets/img/janina.png",
+    "imageWidth": "180px",
+    "description": "Rezeption und Termine"
+  },
+  {
+    "name": "Anna-Lena Sporleder",
+    "image": "assets/img/team_Anna-Lena.png",
+    "description": "Physiotherapeutin, manuelle Lymphdrainage, PNF (Erwachsene), Manuelle Therapie, CMD, Dynamic Tape, N.A.P.&reg;, ganzheitliche Chiropraktik, frühkindliche Reflexe und Reaktionen"
+  },
+  {
+    "name": "Joachim Tölle",
+    "position": "Praxis Tölle",
+    "image": "assets/img/team_0000_jochim_toelle.png",
+    "description": "Physiotherapeut, sekt. Heilpraktiker, spez. Schmerzphysiotherapie, Manuelle Therapie, betriebl. Gesundheitsmanagement"
+  },
+  {
+    "name": "Katrin Rux",
+    "image": "assets/img/team_katrin.png",
+    "imageWidth": "180px",
+    "description": "Rezeption und Anmeldung"
+  },
+  {
+    "name": "Andrea Kleine",
+    "image": "assets/img/team_0005_andrea_kleine.png",
+    "description": "Osteopathin, Physiotherapeutin, Manuelle Therapie, Heilpraktikerin"
+  },
+  {
+    "name": "Dominique Makris-Fleer",
+    "position": "Dipl. Psychologin",
+    "image": "assets/img/team_0001_dominique_makris.png",
+    "description": "Psychotherapeutin (HPG), Einzel-/Paar-/Familienberatung, Meditation-/ Entspannungsgruppen, Sterbebegleitung, Entspannungstherapeutin"
+  },
+  {
+    "name": "Jana Schultert",
+    "position": "stellv.Praxisleitung <br />in Elternzeit",
+    "image": "assets/img/team_schultert.png",
+    "imageWidth": "180px",
+    "description": "Physiotherapeutin B.sc., Manuelle Lymphdrainage, Manuelle Therapie, CMD, Sektoraler Heilpraktiker, Kinesio-Tape, Faszientherapie 1+2, <br />Viszerale Techniken"
+  },
+  {
+    "name": "Stefan Keller",
+    "image": "assets/img/Stefan-Keller.png",
+    "imageWidth": "180px",
+    "description": "Physiotherapeut, Manuelle Therapie, Manuelle Lymphdrainage, Cranio-Sacrale-Therapie, professionell Care Provider."
+  },
+  {
+    "name": "Jöran Gaudeck",
+    "image": "assets/img/Joran-Gaudeck.png",
+    "imageWidth": "180px",
+    "description": "Physiotherapeut, Manuelle Lymphdrainage, OrthoKonzept"
+  },
+  {
+    "name": "Josalin Gharib",
+    "image": "assets/img/Josalin-Gharib.png",
+    "imageWidth": "180px",
+    "description": "Physiotherapeutin, Manuelle Lymphdrainage, CMD"
+  },
+  {
+    "name": "Jonas Eckmann",
+    "image": "assets/img/Jonas-Eckmann.png",
+    "imageWidth": "180px",
+    "description": "Physiotherapeut, Manuelle Lymphdrainage, CMD"
+  },
+  {
+    "name": "Alexander Buller",
+    "image": "assets/img/Alexander_Buller.png",
+    "imageWidth": "180px",
+    "description": "Physiotherapeut, Manuelle Lymphdrainage, CMD, Osteopathie i.A."
+  },
+  {
+    "name": "Alisa Arnemann",
+    "image": "assets/img/Arnemann.png",
+    "imageWidth": "180px",
+    "description": "Physiotherapeutin, Manuelle Lymphdrainage, Manuelle Therapie, Osteopathie i.A."
+  },
+  {
+    "name": "Stephanie Schoppe",
+    "image": "assets/img/Schoppe.png",
+    "imageWidth": "180px",
+    "description": "Rezeption"
+  }
+]

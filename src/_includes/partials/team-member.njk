@@ -1,0 +1,25 @@
+<div class="one-third{% if isLast %} last{% endif %} tm-animate slide-from-left">
+  <img
+    alt="img"
+    style="margin: 30px 0"
+    {% if member.imageWidth %}width="{{ member.imageWidth }}"{% endif %}
+    src="{{ member.image }}"
+  />
+  <div class="tm-testimonial tm-style2">
+    <div class="info">
+      <div class="name">
+        <h3>{{ member.name }}</h3>
+        {% if member.position %}
+          <p><span>{{ member.position | safe }}</span></p>
+        {% endif %}
+      </div>
+    </div>
+    <div class="testimonial-content">
+      <p>
+        {% if member.position %}<span>{% endif %}
+        {{ member.description | safe }}
+        {% if member.position %}</span>{% endif %}
+      </p>
+    </div>
+  </div>
+</div>
