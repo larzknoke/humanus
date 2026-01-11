@@ -3528,4 +3528,7 @@ footer .tm-social-icons a i {
     justify-content: center;
     text-align: center;
   }
+  .akutbehandlung hr {
+    margin: 15px 0;
+  }
 }
