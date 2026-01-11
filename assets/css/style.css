@@ -3531,4 +3531,7 @@ footer .tm-social-icons a i {
   .akutbehandlung hr {
     margin: 15px 0;
   }
+  .akutbehandlung .iconlist-entry {
+    width: 70% !important;
+  }
 }
