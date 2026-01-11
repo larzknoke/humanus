@@ -3519,6 +3519,10 @@ footer .tm-social-icons a i {
   align-items: center;
 }
 
+.mobile-logo {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .akut-buttons {
     flex-direction: column;
@@ -3533,5 +3537,11 @@ footer .tm-social-icons a i {
   }
   .akutbehandlung .iconlist-entry {
     width: 70% !important;
+  }
+  .mobile-logo {
+    display: block;
+    width: 180px;
+    margin-left: auto;
+    padding: 5px 0;
   }
 }
