@@ -194,7 +194,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  font-smooth: antialiased;
   text-rendering: optimizeLegibility;
 }
 body {
@@ -214,7 +214,7 @@ body {
   clear: both;
 }
 .clear {
-  *zoom: 1;
+  zoom: 1;
 }
 textarea,
 input[type="text"],
@@ -3496,4 +3496,18 @@ footer .tm-social-icons a i {
 .testimonial-content {
   margin-top: 20px;
   line-height: 24px;
+}
+
+.akutbehandlung .iconlist-icon {
+  background-color: #b8cb6a !important;
+}
+
+.akutbehandlung .tm-iconlist li {
+  display: flex;
+  padding: 15px !important;
+  align-items: center;
+}
+
+.akutbehandlung .iconlist-entry {
+  width: 80% !important;
 }
