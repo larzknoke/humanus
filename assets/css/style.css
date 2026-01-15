@@ -3523,6 +3523,11 @@ footer .tm-social-icons a i {
   display: none;
 }
 
+.akut-wrapper {
+  display: flex;
+  flex-direction: row !important;
+}
+
 @media screen and (max-width: 768px) {
   .akut-buttons {
     flex-direction: column;
@@ -3543,5 +3548,10 @@ footer .tm-social-icons a i {
     width: 180px;
     margin-left: auto;
     padding: 5px 0;
+  }
+  .akut-wrapper {
+    flex-direction: column-reverse !important;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
