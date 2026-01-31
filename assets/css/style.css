@@ -4,7 +4,8 @@
   font-style: normal;
   font-weight: 300;
   src: url("/assets/fonts/roboto-v30-latin-300.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/roboto-v30-latin-300.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/roboto-v30-latin-300.woff2")
@@ -22,7 +23,8 @@
   font-style: italic;
   font-weight: 300;
   src: url("/assets/fonts/roboto-v30-latin-300italic.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/roboto-v30-latin-300italic.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/roboto-v30-latin-300italic.woff2")
@@ -40,7 +42,8 @@
   font-style: normal;
   font-weight: 400;
   src: url("/assets/fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/roboto-v30-latin-regular.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/roboto-v30-latin-regular.woff2")
@@ -58,7 +61,8 @@
   font-style: normal;
   font-weight: 500;
   src: url("/assets/fonts/roboto-v30-latin-500.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/roboto-v30-latin-500.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/roboto-v30-latin-500.woff2")
@@ -76,7 +80,8 @@
   font-style: normal;
   font-weight: 700;
   src: url("/assets/fonts/roboto-v30-latin-700.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/roboto-v30-latin-700.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/roboto-v30-latin-700.woff2")
@@ -95,7 +100,8 @@
   font-style: normal;
   font-weight: 300;
   src: url("/assets/fonts/karma-v16-latin-300.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/karma-v16-latin-300.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/karma-v16-latin-300.woff2") format("woff2"),
@@ -112,7 +118,8 @@
   font-style: normal;
   font-weight: 400;
   src: url("/assets/fonts/karma-v16-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/karma-v16-latin-regular.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/karma-v16-latin-regular.woff2")
@@ -130,7 +137,8 @@
   font-style: normal;
   font-weight: 500;
   src: url("/assets/fonts/karma-v16-latin-500.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/karma-v16-latin-500.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/karma-v16-latin-500.woff2") format("woff2"),
@@ -147,7 +155,8 @@
   font-style: normal;
   font-weight: 600;
   src: url("/assets/fonts/karma-v16-latin-600.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/karma-v16-latin-600.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/karma-v16-latin-600.woff2") format("woff2"),
@@ -164,7 +173,8 @@
   font-style: normal;
   font-weight: 700;
   src: url("/assets/fonts/karma-v16-latin-700.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("/assets/fonts/karma-v16-latin-700.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("/assets/fonts/karma-v16-latin-700.woff2") format("woff2"),
@@ -970,7 +980,7 @@ header #tm-header-nav nav.tm-nav ul.tm-menu li.tm-mega-menu:hover ul.sub-menu {
 }
 header #tm-header-nav nav.tm-nav ul.tm-menu > li {
   display: inline-block;
-  padding: 30px 0px 0px 30px;
+  padding: 30px 0px 0px 0px;
   line-height: 100%;
 }
 header #tm-header-nav nav.tm-nav ul.tm-menu > li:first-child > a {
@@ -1130,10 +1140,18 @@ header
   > li.tm-mega-menu
   > ul.sub-menu {
   border: none;
-  box-shadow: 0 3px 0 #4d555a inset, 0 2px 3px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 3px 0 #4d555a inset, 0 2px 3px rgba(0, 0, 0, 0.05);
-  -o-box-shadow: 0 3px 0 #4d555a inset, 0 2px 3px rgba(0, 0, 0, 0.05);
-  -ms-box-shadow: 0 3px 0 #4d555a inset, 0 2px 3px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    0 3px 0 #4d555a inset,
+    0 2px 3px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow:
+    0 3px 0 #4d555a inset,
+    0 2px 3px rgba(0, 0, 0, 0.05);
+  -o-box-shadow:
+    0 3px 0 #4d555a inset,
+    0 2px 3px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow:
+    0 3px 0 #4d555a inset,
+    0 2px 3px rgba(0, 0, 0, 0.05);
 }
 header #tm-header-nav.tm-menu-style2 {
   background: #4d555a;
